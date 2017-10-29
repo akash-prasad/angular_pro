@@ -1,0 +1,39 @@
+{
+  "name": "akash",
+  "version": "1.0.0",
+  "description": "sample weather app",
+  "main": "main.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash-prasad/angular_pro.git"
+  },
+  "keywords": [
+    "angular",
+    "wather",
+    "app"
+  ],
+  "author": "akash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akash-prasad/angular_pro/issues"
+  },
+  "homepage": "https://github.com/akash-prasad/angular_pro#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "angular-ui-router": "^0.4.3",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
